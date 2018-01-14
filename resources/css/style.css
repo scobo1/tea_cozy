@@ -56,12 +56,19 @@ nav span a {
   align-items: center;
 }
 
-.headline {
+.heading {
   background-color: black;
   width: 100%;
+  height: 100px;
+  margin: 30px 0px;
 }
 
 h2 {
+  margin: 10px;
+}
+
+h4 {
+  margin: 15px;
 }
 
 
@@ -70,7 +77,7 @@ h2 {
 .section {
   display: flex;
   flex-direction: column;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 #teas {
@@ -87,6 +94,10 @@ h2 {
   padding-bottom: 10px;
 }
 
+.tea span {
+  font-weight: bold;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -101,6 +112,7 @@ h2 {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
+  justify-content: center;
 }
 
 .location {
